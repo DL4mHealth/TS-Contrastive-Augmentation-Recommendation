@@ -20,6 +20,8 @@ Here is our simplified workflow:
 
 ## Methods
 ### Generating synthetic datasets and benchmarking the augmentations
-### Tend-Seasonality-Based Recommendation System for Augmentations
+<p align="center"><img src="img/benchmarking_workflow.png" alt="overview" width="650px" /></p>
 
+### Tend-Seasonality-Based Recommendation System for Augmentations
+<p align="center"><img src="img/trend_season_recommendation.png" alt="overview" width="650px" /></p>
 https://pypi.org/project/ts-arm/0.0.1/
