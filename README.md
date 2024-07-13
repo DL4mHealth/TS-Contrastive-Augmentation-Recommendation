@@ -26,6 +26,7 @@ Here is our simplified workflow:
 <p align="center"><img src="img/trend_season_recommendation.png" alt="overview" width="650px" /></p>
 
 ## Recommendation Results
+<!-- 
 | Recommendation method |Recall | HAR | PTB | FD | ElecD | SPX500 | Mean |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Random | Recall@1 | 0.113 | 0.107 | 0.108 | 0.108 | 0.101 | 0.107 |
@@ -37,35 +38,19 @@ Here is our simplified workflow:
 | Tend-Seasonality-Based (Ours) | Recall@1 | 1 | 0 | 1 | 1 | 0 | 0.6 |
 |                               | Recall@2 | 1 | 0 | 1 | 1 | 0.5 | 0.7 |
 |                               | Recall@3 | 0.667 | 0.667 | 1 | 0.667 | 0.667 | 0.734 |
+-->
 
-
-# Merged Rows in Markdown Table
-
-| Recommendation method                              | Recall    | HAR   | PTB   | FD    | ElecD | SPX500 | Mean |
-|:--------------------------------------------------:|:---------:|:-----:|:-----:|:-----:|:-----:|:------:|:----:|
-| <td rowspan="3">Random</td>                        | Recall@1  | 0.113 | 0.107 | 0.108 | 0.108 | 0.101  | 0.107 |
-|                                                    | Recall@2  | 0.235 | 0.217 | 0.222 | 0.218 | 0.209  | 0.22  |
-|                                                    | Recall@3  | 0.335 | 0.331 | 0.336 | 0.339 | 0.331  | 0.334 |
-| <td rowspan="3">Popularity</td>                    | Recall@1  | 1     | 0     | 0     | 0     | 0      | 0.2   |
-|                                                    | Recall@2  | 1     | 0     | 0     | 0.5   | 0      | 0.3   |
-|                                                    | Recall@3  | 0.667 | 0.333 | 0.667 | 0.667 | 0.667  | 0.6   |
-| <td rowspan="3"><mark>Tend-Seasonality-Based (Ours)</mark></td> | Recall@1  | 1     | 0     | 1     | 1     | 0      | 0.6   |
-|                                                    | Recall@2  | 1     | 0     | 1     | 1     | 0.5    | 0.7   |
-|                                                    | Recall@3  | 0.667 | 0.667 | 1     | 0.667 | 0.667  | 0.734 |
-
-
-
-| Recommendation method                              | Recall    | HAR   | PTB   | FD    | ElecD | SPX500 | Mean |
-|:--------------------------------------------------:|:---------:|:-----:|:-----:|:-----:|:-----:|:------:|:----:|
-| <td rowspan="3">Random</td>                        | Recall@1  | 0.113 | 0.107 | 0.108 | 0.108 | 0.101  | 0.107 |
-|                                                    | Recall@2  | 0.235 | 0.217 | 0.222 | 0.218 | 0.209  | 0.22  |
-|                                                    | Recall@3  | 0.335 | 0.331 | 0.336 | 0.339 | 0.331  | 0.334 |
-| <td rowspan="3">Popularity</td>                    | Recall@1  | 1     | 0     | 0     | 0     | 0      | 0.2   |
-|                                                    | Recall@2  | 1     | 0     | 0     | 0.5   | 0      | 0.3   |
-|                                                    | Recall@3  | 0.667 | 0.333 | 0.667 | 0.667 | 0.667  | 0.6   |
-| <td rowspan="3">Tend-Seasonality-Based (Ours)</td> | <td style="background-color: lightgreen;">Recall@1</td> | <td style="background-color: lightgreen;">1</td> | <td style="background-color: lightgreen;">0</td> | <td style="background-color: lightgreen;">1</td> | <td style="background-color: lightgreen;">1</td> | <td style="background-color: lightgreen;">0</td> | <td style="background-color: lightgreen;">0.6</td> |
-| <td style="background-color: lightgreen;">Recall@2</td> | <td style="background-color: lightgreen;">1</td> | <td style="background-color: lightgreen;">0</td> | <td style="background-color: lightgreen;">1</td> | <td style="background-color: lightgreen;">1</td> | <td style="background-color: lightgreen;">0.5</td> | <td style="background-color: lightgreen;">0.7</td> |
-| <td style="background-color: lightgreen;">Recall@3</td> | <td style="background-color: lightgreen;">0.667</td> | <td style="background-color: lightgreen;">0.667</td> | <td style="background-color: lightgreen;">1</td> | <td style="background-color: lightgreen;">0.667</td> | <td style="background-color: lightgreen;">0.667</td> | <td style="background-color: lightgreen;">0.734</td> |
+| Recommendation method          | Recall    | HAR   | PTB   | FD    | ElecD | SPX500 | Mean  |
+|:------------------------------:|:---------:|:-----:|:-----:|:-----:|:-----:|:------:|:-----:|
+| Random                         | Recall@1  | 0.113 | 0.107 | 0.108 | 0.108 | 0.101  | 0.107 |
+|                                | Recall@2  | 0.235 | 0.217 | 0.222 | 0.218 | 0.209  | 0.22  |
+|                                | Recall@3  | 0.335 | 0.331 | 0.336 | 0.339 | 0.331  | 0.334 |
+| Popularity                     | Recall@1  | 1     | 0     | 0     | 0     | 0      | 0.2   |
+|                                | Recall@2  | 1     | 0     | 0     | 0.5   | 0      | 0.3   |
+|                                | Recall@3  | 0.667 | 0.333 | 0.667 | 0.667 | 0.667  | 0.6   |
+| Tend-Seasonality-Based (Ours)  | <mark>Recall@1</mark>  | <mark>1</mark>     | <mark>0</mark>     | <mark>1</mark>     | <mark>1</mark>     | <mark>0</mark>      | <mark>0.6</mark>   |
+|   | <mark>Recall@2</mark>  | <mark>1</mark>     | <mark>0</mark>     | <mark>1</mark>     | <mark>1</mark>     | <mark>0.5</mark>    | <mark>0.7</mark>   |
+|   | <mark>Recall@3</mark>  | <mark>0.667</mark> | <mark>0.667</mark> | <mark>1</mark>     | <mark>0.667</mark> | <mark>0.667</mark>  | <mark>0.734</mark> |
 
 
 https://pypi.org/project/ts-arm/0.0.1/
