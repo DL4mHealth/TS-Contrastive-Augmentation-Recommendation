@@ -34,10 +34,9 @@ Here is our simplified workflow:
 | Popularity | Recall@1 | 1 | 0 | 0 | 0 | 0 | 0.2 |
 |            | Recall@2 | 1 | 0 | 0 | 0.5 | 0 | 0.3 |
 |            | Recall@3 | 0.667 | 0.333 | 0.667 | 0.667 | 0.667 | 0.6 |
-| Tend-Seasonality-Based | Recall@1 | 1 | 0 | 1 | 1 | 0 | 0.6 |
-|         (Ours)         | Recall@2 | 1 | 0 | 1 | 1 | 0.5 | 0.7 |
-|                        | Recall@3 | 0.667 | 0.667 | 1 | 0.667 | 0.667 | 0.734 |
-
+| <mark>Tend-Seasonality-Based (Ours)<mark> | Recall@1 | 1 | 0 | 1 | 1 | 0 | 0.6 |
+|                               | Recall@2 | 1 | 0 | 1 | 1 | 0.5 | 0.7 |
+|                               | Recall@3 | 0.667 | 0.667 | 1 | 0.667 | 0.667 | 0.734 |
 
 
 
