@@ -26,6 +26,7 @@ Here is our simplified workflow:
 <p align="center"><img src="img/trend_season_recommendation.png" alt="overview" width="650px" /></p>
 
 ## Recommendation Results
+*E.g., Recall@3 = 0.667 = 2/3 means that: 2 out of 3 recommended augmentations fall within the true 3 best augmentations.* 
 
 | Recommendation method |Recall | HAR | PTB | FD | ElecD | SPX500 | Mean |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -38,6 +39,20 @@ Here is our simplified workflow:
 | <mark>Tend-Seasonality-Based (Ours)<mark> | Recall@1 | 1 | 0 | 1 | 1 | 0 | 0.6 |
 |                               | Recall@2 | 1 | 0 | 1 | 1 | 0.5 | 0.7 |
 |                               | Recall@3 | 0.667 | 0.667 | 1 | 0.667 | 0.667 | 0.734 |
+
+## Installation and use
+### Installation
+To install the **TS** Contrastive **A**ugmentation **R**ecommendation **M**ethod (TS_ARM) tool: 
+
+```
+pip install ts_arm
+```
+
+The TS_ARM tool is lightweight and has minimal dependency on external packages:
+```
+numpy, scikit_learn, scipy, statsmodels, tqdm
+```
+### Use
 
 
 https://pypi.org/project/ts-arm/0.0.1/
