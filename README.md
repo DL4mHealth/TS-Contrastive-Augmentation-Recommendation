@@ -11,7 +11,7 @@ Self-supervised contrastive learning has become a key technique in deep learning
 In this paper, we establish a principled framework for selecting augmentations based on dataset characteristics such as trend and seasonality. Specifically, we construct 12 synthetic datasets incorporating trend, seasonality, and integration weights. We then evaluate the effectiveness of 8 different augmentations across these synthetic datasets, thereby inducing generalizable associations between time series characteristics and augmentation efficiency. Additionally, we evaluated the induced associations across 6 real-world datasets encompassing domains such as activity recognition, disease diagnosis, traffic monitoring, electricity usage, mechanical fault prognosis, and finance. These real-world datasets are diverse, covering a range from 1 to 12 channels, 2 to 10 classes, sequence lengths of 14 to 1280, and data frequencies from 250 Hz to daily intervals. The experimental results show that our proposed trend-seasonality-based augmentation recommendation algorithm can accurately identify the effective augmentations for a given time series dataset, achieving an average Recall@3 of 0.667, outperforming baselines. Our work provides guidance for studies employing contrastive learning in time series analysis, with wide-ranging applications.
 
 Here is our simplified workflow:
-<p align="center"><img src="img/mini_pipeline_h.png" alt="overview" width="450px" /></p>
+<p align="center"><img src="https://github.com/DL4mHealth/TS-Contrastive-Augmentation-Recommendation/blob/main/img/mini_pipeline_h.png?raw=true" width="450px" /></p>
 
 ## Key contributions of this work
 - We construct 12 synthetic time series datasets that cover linear and non-linear trends, trigonometric and wavelet-based seasonalities, and three types of weighted integration.
@@ -20,10 +20,10 @@ Here is our simplified workflow:
 
 ## Methods
 ### Generating synthetic datasets and benchmarking the augmentations
-<p align="center"><img src="img/benchmarking_workflow.png" alt="overview" width="650px" /></p>
+<p align="center"><img src="https://github.com/DL4mHealth/TS-Contrastive-Augmentation-Recommendation/blob/main/img/benchmarking_workflow.png?raw=true" width="645px" /></p>
 
 ### Tend-Seasonality-Based Recommendation System for Augmentations
-<p align="center"><img src="img/trend_season_recommendation.png" alt="overview" width="650px" /></p>
+<p align="center"><img src="https://github.com/DL4mHealth/TS-Contrastive-Augmentation-Recommendation/blob/main/img/trend_season_recommendation.png?raw=true" width="650px" /></p>
 
 ## Recommendation Results
 *E.g., Recall@3 = 0.667 = 2/3 means that: 2 out of 3 recommended augmentations fall within the true 3 best augmentations.* 
