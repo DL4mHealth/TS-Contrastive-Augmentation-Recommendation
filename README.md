@@ -92,7 +92,7 @@ Popularity-based top 3 recommendation: ['Jittering', 'TimeMasking', 'Resizing']
 ## Cite us
 If you find this work useful for your research, please consider citing this paper:
 ```
-@article{liu2024self,
+@article{liu2024guidelines,
   title={Guidelines for Augmentation Selection in Contrastive Learning for Time Series Classification},
   author={Liu, Ziyu and Alavi, Azadeh and Li, Minyi and Zhang, Xiang},
   journal={arXiv},
