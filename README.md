@@ -54,11 +54,45 @@ numpy, scikit_learn, scipy, statsmodels, tqdm
 ```
 
 ## Usage
+For instance, when working with the **FD dataset** to obtain **top 3** effective augmentations for building contrastive pairs in a time series classification task:
+```
+from ts_arm import aug_rec
+import numpy as np
+
+queryset = np.load("FD_trainx.npy")  # training features of your query dataset
+FD_top_augs = aug_rec.aug_rec_ts(queryset_name='FD',
+                          K=3,  # number of Augmentations you want to have
+                          query_length=1280,  # feature length in query dataset
+                          query_period_list=[40],  # list of potential periods, here we only take 40 as an example
+                          queryset=queryset)
+```
+⚠️ **Note:** For some datasets, the first step, STL decomposition, may take a considerable amount of time.
+
+The primary output will be the top three augmentations for your query dataset (the last line, displayed in bold and green, which may not appear correctly in GitHub's rendered view).  
+Additionally, the output includes supplementary information related to the calculations of key steps in our trend-seasonality-based recommendation methods, which can be useful if you need to understand the details of the process.
+```
+T1 Similarity: 0.0890
+T2 Similarity: 0.0896
+S1 Similarity: 0.1413
+S2 Similarity: 0.1229
+
+Trend Power:0.029475567737649352
+Season Power:0.2485660294803488
+Your twin dataset is: AC 1
+Trend-season based top 3 augmentations are:['Resizing', 'Permutation', 'TimeMasking']
+```
+In addition, if you want to check the popularity-based recommendation baseline:
+```
+FD_augs_popular = aug_rec.aug_rec_popular(3)
+```
+The output:
+```
+Popularity-based top 3 recommendation: ['Jittering', 'TimeMasking', 'Resizing']
+```
 
 ## Cite us
 If you find this work useful for your research, please consider citing this paper:
 ```
-
 ```
 
 ## Future work
