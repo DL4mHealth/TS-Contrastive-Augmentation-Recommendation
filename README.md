@@ -55,6 +55,11 @@ numpy, scikit_learn, scipy, statsmodels, tqdm
 
 ## Usage
 
+## Cite us
+If you find this work useful for your research, please consider citing this paper:
+```
+
+```
 
 ## Future work
 We have several exciting plans for the future development of this project, including but not limited to:
