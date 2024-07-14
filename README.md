@@ -42,7 +42,7 @@ Here is our simplified workflow:
 
 
 ## Installation
-To install the **TS** Contrastive **A**ugmentation **R**ecommendation **M**ethod (TS_ARM) tool: 
+To install the **T**ime **S**eries Contrastive **A**ugmentation **R**ecommendation **M**ethod (TS_ARM) tool: 
 
 ```bash
 pip install ts_arm
