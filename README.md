@@ -40,11 +40,11 @@ Here is our simplified workflow:
 |                               | Recall@2 | 1 | 0 | 1 | 1 | 0.5 | 0.7 |
 |                               | Recall@3 | 0.667 | 0.667 | 1 | 0.667 | 0.667 | 0.734 |
 
-## Installation and use
-### Installation
+
+## Installation
 To install the **TS** Contrastive **A**ugmentation **R**ecommendation **M**ethod (TS_ARM) tool: 
 
-```
+```bash
 pip install ts_arm
 ```
 
@@ -52,7 +52,21 @@ The TS_ARM tool is lightweight and has minimal dependency on external packages:
 ```
 numpy, scikit_learn, scipy, statsmodels, tqdm
 ```
-### Use
+
+## Usage
 
 
-https://pypi.org/project/ts-arm/0.0.1/
+## Future work
+We have several exciting plans for the future development of this project, including but not limited to:
+- More patterns of trends and seasonalities.
+- More contrastive models.
+- Alternative similarity metrics.
+- Divergence score thresholding.
+- More results analysis.
+
+## License
+
+The TS-Contrastive-Augmentation-Recommendation project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+<!--- https://pypi.org/project/ts-arm/0.0.1/ --->
