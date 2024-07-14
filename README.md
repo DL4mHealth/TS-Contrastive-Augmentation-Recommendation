@@ -1,6 +1,6 @@
 # TS-Contrastive-Augmentation-Recommendation-Method (TS-ARM)
 
-[![PyPI version](https://badge.fury.io/py/ts-arm.svg)](https://badge.fury.io/py/ts-arm)
+[![PyPI version](https://badge.fury.io/py/ts-arm.svg?style=flat)](https://badge.fury.io/py/ts-arm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 **Recommend effective augmentations for self-supervised contrastive learning tailored for your time series dataset.**
