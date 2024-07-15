@@ -5,7 +5,8 @@
 
 **Recommend effective augmentations for self-supervised contrastive learning tailored for your time series dataset.**
 
-**Paper**: <a href="https://arxiv.org/abs/2407.09336" target="_blank">**Guidelines for Augmentation Selection in Contrastive Learning for Time Series Classification**</a>
+**Paper**: [**Guidelines for Augmentation Selection in Contrastive Learning for Time Series Classification**](https://arxiv.org/abs/2407.09336)
+
 #### Authors: Ziyu Liu (ziyu.liu2@student.rmit.edu.au), Azadeh Alavi, Minyi Li and Xiang Zhang
 
 Self-supervised contrastive learning is a significant framework in time series analysis, utilizing meaningful representations learned without explicit labels. Augmentation plays a crucial role, with **performance variations up to 30%** based on the choice of augmentation, typically chosen through empirical methods or time-consuming grid searches. Here, we provide guidelines to select augmentations aligned with dataset characteristics like trend and seasonality. We generated 12 synthetic datasets with varying trend, seasonality, and integration weights and tested the effectiveness of 8 different augmentations. We further validated our findings across 6 real-world datasets from various domains—activity recognition, disease diagnosis, traffic monitoring, electricity usage, mechanical fault prognosis, and finance—featuring diverse characteristics. Our **trend-seasonality-based augmentation recommendation method (ts-arm)**, the TS represents both Time Series and Trend Seasonality, significantly outperforms baselines, achieving an average Recall@3 of 0.734, providing a robust method for augmentation selection in contrastive learning for time series analysis.
