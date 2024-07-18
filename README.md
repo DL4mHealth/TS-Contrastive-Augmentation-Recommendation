@@ -1,6 +1,6 @@
 # TS-Contrastive-Augmentation-Recommendation-Method (TS-ARM)
 
-[![PyPI version](https://badge.fury.io/py/ts-arm.svg?style=flat)](https://badge.fury.io/py/ts-arm)
+[![PyPI version](https://img.shields.io/pypi/v/ts-arm.svg?style=flat&color=green)](https://pypi.org/project/ts-arm/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 **Recommend effective augmentations for self-supervised contrastive learning tailored for your time series dataset.**
@@ -116,4 +116,4 @@ We have several exciting plans for the future development of this project, inclu
 The TS-Contrastive-Augmentation-Recommendation project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-<!--- https://pypi.org/project/ts-arm/0.0.1/ --->
+<!--- https://pypi.org/project/ts-arm/ --->
